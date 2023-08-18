@@ -7,7 +7,6 @@ spring:
   application:
     name: weather-microservice
 
-
 weather:
   api:
     weather-url: https://api.openweathermap.org/data/3.0/onecall
