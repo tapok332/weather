@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+    url: http://localhost:5432/weather
+  application:
+    name: weather-microservice
+
+
+weather:
+  api:
+    weather-url: https://api.openweathermap.org/data/3.0/onecall
+    location-url: http://api.openweathermap.org/geo/1.0/direct
+    key: 901dfa52c0b0bd4f387e6cb703aa7a9d
